@@ -2,30 +2,26 @@ package punto5_tienda;
 
 public class Producto {
 	
-	private int codigo;
+	int codigo;
 
-	private String nombre;
+	String nombre;
 
-	private String tipo;
+	String tipo;
 
-	private String fechadeexpiración;
+	String fechadeexpiración;
 
-	private String nombredelfabricante;
+	String nombredelfabricante;
 
-	private int cantidadeninventario;
+	int cantidadeninventario;
 
-	private float preciounitario;
+	float preciounitario;
 
-	private String tienda;
+	tienda tienda;
 	
 
 	public void guardarDatos() {
 
 	}
 
-
-	public Producto() {
-		// TODO Auto-generated constructor stub
-	}
 
 }

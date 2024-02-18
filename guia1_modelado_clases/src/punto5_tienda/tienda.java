@@ -1,27 +1,23 @@
 package punto5_tienda;
 
+import java.util.HashSet;
+
 public class tienda {
 	
-	private String nombre;
+	String nombre;
 
-	private String direccion;
+	String direccion;
 
-	private int telefono;
+	int telefono;
 
-	private String producto;
+	String producto;
 
+	HashSet<Producto>Productos= new HashSet<Producto>(); 
 	
+
 	public void guardarDatos() {
 
 	}
 
-	public tienda(String nombre,String direccion, int telefono) {
-		
-	}
-
-	public static void main(String[] args) {
-		
-
-	}
-
+	
 }
